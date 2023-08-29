@@ -1,0 +1,8 @@
+{
+  "pagesearch": {
+	"jcr:primaryType": "nt:unstructured",
+	"sling:resourceType": "wknd/components/content/pagesearch",
+	"name": "Wyszukiwajka",
+	"maxNumberOfResults": 2
+  }
+}

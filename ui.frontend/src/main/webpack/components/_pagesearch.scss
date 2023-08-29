@@ -1,0 +1,28 @@
+.cmp-pagesearch {
+  $imageSize: 150px;
+
+  .cmp-pagesearch__image {
+    float: left;
+
+    /* This class targets a Core Component Image CSS class */
+    .cmp-image__image {
+      width: 100%;
+      height: 100%;
+      max-width: $imageSize;
+      max-height: $imageSize;
+      border-radius: $imageSize / 2;
+      object-fit: cover;
+    }
+  }
+
+  .cmp-pagesearch__name {
+    padding-top: 0.5rem;
+    margin-left: $imageSize + 25px;
+    margin-bottom: .25rem;
+    margin-top:0rem;
+  }
+
+  .cmp-pagesearch__box {
+    background-color: red;
+  }
+}
